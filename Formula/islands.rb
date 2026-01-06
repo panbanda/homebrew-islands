@@ -1,26 +1,26 @@
 class Islands < Formula
   desc "Codebase indexing and semantic search using LEANN"
   homepage "https://github.com/panbanda/islands"
-  version "0.3.0"
+  version "1.0.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/panbanda/islands/releases/download/islands-v0.3.0/islands_0.3.0_aarch64-apple-darwin.tar.gz"
-      sha256 "5be56314f0ea070ac40862b5979014d5f2a6623ba6e30bbbf015945717bfcf89"
+      url "https://github.com/panbanda/islands/releases/download/islands-v1.0.0/islands_1.0.0_aarch64-apple-darwin.tar.gz"
+      sha256 "fc146d6460391ead5fceaa42da66a1dd7f6854d5325fb3e24955682fa75f8855"
     else
-      url "https://github.com/panbanda/islands/releases/download/islands-v0.3.0/islands_0.3.0_x86_64-apple-darwin.tar.gz"
-      sha256 "5f0263874f4bb930aeb7192d84ac9e392f2ed5451e259d17d9bca93a05c46fec"
+      url "https://github.com/panbanda/islands/releases/download/islands-v1.0.0/islands_1.0.0_x86_64-apple-darwin.tar.gz"
+      sha256 "b65a77f483661204fd12c345c775d75c89a49dbfa83293157ffa3665415ae622"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/panbanda/islands/releases/download/islands-v0.3.0/islands_0.3.0_aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "08771abad2191578a35c062e5feba7d20ced77b1cef00b6e69c8ea6d239681d8"
+      url "https://github.com/panbanda/islands/releases/download/islands-v1.0.0/islands_1.0.0_aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "fbedca795c20b3bcacc01e53bd93f3f819b6480213d1bc5431d30860b6c5e9ba"
     else
-      url "https://github.com/panbanda/islands/releases/download/islands-v0.3.0/islands_0.3.0_x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "074b05912c6e80c5b5e5d955b7d27acf45d9ae8bbea461d408d08c03d63ad6e0"
+      url "https://github.com/panbanda/islands/releases/download/islands-v1.0.0/islands_1.0.0_x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c32e92ae5e6468f67640164c6402ea0502d1517a8380bc73e3e1a56c201a142d"
     end
   end
 
